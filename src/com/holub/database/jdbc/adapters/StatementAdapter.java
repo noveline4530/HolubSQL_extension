@@ -70,5 +70,47 @@ public SQLWarning getWarnings() throws SQLException {throw new SQLException("Sta
 public void setCursorName(String name) throws SQLException {throw new SQLException("Statement.setCursorName(String name) not supported");}
 public void setEscapeProcessing(boolean enable) throws SQLException {throw new SQLException("Statement.setEscapeProcessing(boolean enable) not supported");}
 public void setMaxFieldSize(int max) throws SQLException {throw new SQLException("Statement.setMaxFieldSize(int max) not supported");}
-public void checkClosed() throws SQLException {throw new SQLException("Statement.checkClosed() not supported");}	
+public void checkClosed() throws SQLException {throw new SQLException("Statement.checkClosed() not supported");}
+
+@Override
+public <T> T unwrap(Class<T> iface) throws SQLException {
+	// TODO Auto-generated method stub
+	return null;
+}
+
+@Override
+public boolean isWrapperFor(Class<?> iface) throws SQLException {
+	// TODO Auto-generated method stub
+	return false;
+}
+
+@Override
+public boolean isClosed() throws SQLException {
+	// TODO Auto-generated method stub
+	return false;
+}
+
+@Override
+public void setPoolable(boolean poolable) throws SQLException {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public boolean isPoolable() throws SQLException {
+	// TODO Auto-generated method stub
+	return false;
+}
+
+@Override
+public void closeOnCompletion() throws SQLException {
+	// TODO Auto-generated method stub
+	
+}
+
+@Override
+public boolean isCloseOnCompletion() throws SQLException {
+	// TODO Auto-generated method stub
+	return false;
+}	
 }

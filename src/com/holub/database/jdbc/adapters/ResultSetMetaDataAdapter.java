@@ -55,4 +55,14 @@ public boolean isReadOnly(int column)throws java.sql.SQLException{throw new java
 public boolean isSearchable(int column)throws java.sql.SQLException{throw new java.sql.SQLException("ResultSetMetaData.isSearchable(int column) not supported");}
 public boolean isSigned(int column)throws java.sql.SQLException{throw new java.sql.SQLException("ResultSetMetaData.isSigned(int column) not supported");}
 public boolean isWritable(int column) throws java.sql.SQLException{throw new java.sql.SQLException("ResultSetMetaData.isWritable(int column) not supported");}
+@Override
+public <T> T unwrap(Class<T> iface) throws SQLException {
+	// TODO Auto-generated method stub
+	return null;
+}
+@Override
+public boolean isWrapperFor(Class<?> iface) throws SQLException {
+	// TODO Auto-generated method stub
+	return false;
+}
 }
