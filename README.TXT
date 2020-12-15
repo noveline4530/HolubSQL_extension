@@ -28,3 +28,8 @@ Released 27 Sept., 2004
  *    caused by bugs, including lost productivity or data)
  *    in any of this code.
  */
+
+Extension Project Included:
+1 - HTML exporter, JUnit test code
+2 - XML Importer, JUnit test code
+3 - XML Exporter, JUnit test code
