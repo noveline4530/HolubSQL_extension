@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+    <row>
+        <first>Fred</first>
+        <last>Flintstone</last>
+        <addrId>2</addrId>
+    </row>
+    <row>
+        <first>Wilma</first>
+        <last>Flintstone</last>
+        <addrId>2</addrId>
+    </row>
+    <row>
+        <first>Allen</first>
+        <last>Holub</last>
+        <addrId>1</addrId>
+    </row>
+</people>
